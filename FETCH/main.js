@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(response => response.json())
     .then(data => {
         
-        const personajes = data.slice(0, 20);
+        const personajes = data.slice(0, 21);
 
         console.log(personajes);
         personajes.forEach(personaje => {
@@ -19,8 +19,16 @@ document.addEventListener('DOMContentLoaded', () => {
             const name = document.createElement('h2')
             name.textContent = personaje.name
 
+            const house = document.createElement('p')
+            house.textContent = personaje.house
+
+            const species = document.createElement('p')
+            species.textContent = personaje.species
+
             card.appendChild(image)
             card.appendChild(name)
+            card.appendChild(house)
+            card.appendChild(species)
 
             container.appendChild(card)
         })
