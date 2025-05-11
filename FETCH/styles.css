@@ -1,22 +1,163 @@
+body{
+    background-color: rgb(21, 21, 46);
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    height: 4.5vw;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+
+#logo{
+    width: 12vw;
+    height: auto;
+    margin-right: 9vw;
+    margin-left: -6vw;
+}
+
+#Login{
+    margin-left: 8vw;
+}
+
+#Login:hover {
+    background-color: rgb(166, 141, 16);
+    color: rgb(0, 0, 0);
+    padding: 3px;
+  }
+
+#listado{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;  
+    font-size: 15px; 
+}
+
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar li {
+    margin: 0vw 0.7vw;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  
+  
+
+  a { text-decoration: none; }
+  
+
+  ul {
+    list-style: none;
+    gap: 25px;
+  }
+  
+  #persona {
+    border-bottom: 2px solid rgb(163, 158, 16); 
+    padding-bottom: 2px; 
+  }
+
+
+  /* CONTENEDOR GRANDE */
+.bigContainer{
+    width: 96%;
+    background-color: rgb(12, 37, 57);
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-top: 30px;
+}
+.intro{
+    display:flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40px;
+    margin-top: 3vw;
+}
+
+#harry{
+    width: 40vw;
+    height: auto;
+    margin-left: -30px;
+}
+
+
+#descubre{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#conoce{
+    font-size: 22px;
+    color: black;
+    background-color: rgb(166, 141, 16);
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 2%;
+    width: 18vw;
+}
+
+
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    gap: 5px; 
+    column-gap: 3vw;
+    row-gap: 1vw;
     padding: 5px;
+    margin-top: -1.3vh;
+    margin-left: 6vw;
+    
+    
 }
 
+.container > *:hover {
+    background-color: #4e4500;;
+    transform: scale(1.05);
+  }
+
 .card {
-    border: 1px solid #ccc;
-    padding: 10px;
+    width: 16.8vw;
+    height: auto;
+    border: 8px solid #4e4500;
+    padding: 9px;
     margin: 10px;
     border-radius: 8px;
-    background-color: #f9f9f9;
-    width: 20wv;
+    background-color: rgb(2, 26, 46);
+    color: white;
+    text-align: center;
+  }
+
+  .card h2{
+    font-size: 22px;
+    font-weight: bold;
   }
 
   img{
-    width: auto;
-    height: 40vh;
+    width: 18vw;
+    height: auto;
     display: flex;
     justify-self: center;
+    margin-top: -10px;
   }
+
+ 
