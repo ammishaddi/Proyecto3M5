@@ -131,18 +131,18 @@ body{
 }
 
 .container > *:hover {
-    background-color: #4e4500;;
+    background-color: rgb(166, 141, 16);
     transform: scale(1.05);
   }
 
 .card {
     width: 16.8vw;
     height: auto;
-    border: 8px solid #4e4500;
+    border: 8px solid rgb(166, 141, 16);
     padding: 9px;
     margin: 10px;
     border-radius: 8px;
-    background-color: rgb(2, 26, 46);
+    background-color: rgb(2, 13, 21);
     color: white;
     text-align: center;
   }
