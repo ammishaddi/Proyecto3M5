@@ -1,0 +1,104 @@
+
+body{
+    background-color: rgb(219, 140, 31);
+}
+
+.bigContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vw;
+    height: calc(100vh - 50px);
+    
+  }
+  
+  /* LADO IZQUIERDO */
+  .leftContainer{
+    position: fixed;
+    top: 0px;
+  
+    width: 45vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 3vw;
+    margin-left: -5px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    font-size: 35px;
+}
+
+.narutoo{
+    width: 30vw;
+    height: auto;
+    margin-top: 7px;
+    display: flex;
+    align-self: center;
+}
+
+#titulo{
+    font-size: 4.3vw;
+     padding: 2px;
+    background-color: rgb(219, 140, 31);
+    color: black;
+    margin: 0px;
+    margin-top: -15px;
+    margin-left: -22px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+#textodos{
+    margin: 0px;
+    margin-top: 1px;
+    font-size: 2.8vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    column-gap: 4vw;
+    row-gap: 3vw;
+    padding: 5px;
+    margin-top: -6vh;
+    margin-left: 54vw;
+    
+    
+}
+
+.container > *:hover {
+    transform: scale(1.1);
+
+  }
+
+  img{
+    width: 13vw;
+    height: auto;
+    display: flex;
+    justify-self: center;
+    margin-top: 0px;
+    
+
+  }
+
+  .card {
+    width: 15vw;
+    height: auto;
+    border: 8px solid rgb(0, 0, 0);
+    padding: 9px;
+    margin: 10px;
+    border-radius: 2px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+
+  }
