@@ -27,6 +27,7 @@ El presente repositorio contiene el proyecto 3 del Módulo "Desarrollo avanzado 
 - por alguna razon no me funciono solo el import axios from axios asi te tuve que poner el import axios from 'https://cdn.skypack.dev/axios'
 - me daba siempre fallo al cargar personajes, luego vi que en la API a diferencia de otras, todos los personajes vienen dentro de "characters" asi que tuve que cambiar de const personajes = response.data.slice(0, 21);  a const personajes = response.data.characters.slice(0, 21); y ya me funcionó, estuve mucho tiempo tratando de ver donde estaba el error y era ahí :c
 - Hay algunos valores a los que no puedo acceder, no se si es cuestión de la API porque luego suo exactamente la misma linea para acceder a un valor similar y si me lo da, al final termine dejando poca info por lo mismo
+- Otra cosa es que al momento de hacer el git add . no me dejo y me empezó a mandar un monton de advertencias en bucle, ahi ya no supe que hacer y le pedi ayuda a chatgpt jaja :c y me dijo que pusiera un .gitignore, asi que ya no se subieron todos los archivos de node_modules porque la temrinal bash empezaba a salir un mensaje en bucle si lo intentaba subir 
 
 ## Axios
 ![Texto alternativo](https://i.imgur.com/jf9f24D.png)
